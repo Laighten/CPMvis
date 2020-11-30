@@ -1,6 +1,8 @@
-### chinaVis 2020 挑战赛（三等奖）
+### ChinaVIS 2020 挑战赛官网
+- 官网地址：[http://www.chinavis.org/2020/challenge.html](http://www.chinavis.org/2020/challenge.html)
+### ChinaVis 2020 挑战赛题目三（三等奖）
 
-- 仓库地址：[https://github.com/sinpor/chinaVis2020.git](https://github.com/sinpor/chinaVis2020.git)
+- 仓库地址：[https://github.com/Laighten/CPMvis](https://github.com/Laighten/CPMvis.git)
 
 ### 前端部署
 
