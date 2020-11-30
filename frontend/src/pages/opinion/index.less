@@ -1,0 +1,91 @@
+.opinion {
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    &>div {
+        height: 100%;
+    }
+    :global {
+        .opinion-left {
+            padding: 0 5px;
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            .opinionChart {
+                padding-bottom: 5px;
+                height: 40%;
+            }
+            .hotTopic {
+                padding-top: 5px;
+                flex: 1;
+                height: 60%;
+            }
+        }
+        .opinion-center {
+            padding: 0 5px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            .main-chart {
+                padding-bottom: 5px;
+                height: 60%;
+            }
+            .section-container {
+                overflow: hidden;
+            }
+            .analys-table {
+                padding-top: 5px;
+                flex: 1;
+                height: 40%;
+                .ant-table-body {
+                    height: 200px;
+                }
+            }
+        }
+        .opinion-right {
+            padding: 0 5px;
+            flex: 1;
+            .calendar {
+                height: 100%;
+            }
+        }
+        .topic-table {
+            height: 100%;
+            .ant-table-body {
+                height: 300px;
+            }
+        }
+        .barChart {
+            position: relative;
+            .chart-legend {
+                position: absolute;
+                right: 20px;
+                bottom: 20px;
+                display: flex;
+                flex-direction: column;
+                .legend-item {
+                    line-height: 3em;
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    &.inactive {
+                        opacity: .5;
+                    }
+                    .legend {
+                        width: 1em;
+                        height: 1em;
+                        border-radius: 4px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .chart-title {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                font-size: 16px;
+                font-weight: bold;
+            }
+        }
+    }
+}

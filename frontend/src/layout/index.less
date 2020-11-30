@@ -1,0 +1,63 @@
+@import '../style/variable.less';
+
+@header-height: 100px;
+
+.layout {
+    background-color:transparent !important;
+    padding: 0;
+    color: white;
+    height: 100%;
+    :global {
+        .layout-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: none;
+            color: inherit;
+            line-height: normal;
+            height: @header-height;
+            &>div {
+                width: 33%;
+            }            
+            .layout-header-title {
+                color: #ffffff;
+                font-size: @font-size-2;
+                width: 53%;
+                div:nth-child(1) {
+                    text-align: center;
+                    word-break: keep-all;
+                }
+                .title-decorate {
+                    // margin-top: -@font-size-2;
+                    height: @font-size-2;
+                }
+            }
+            .layout-header-menu {
+                display: flex;
+                justify-content: flex-end;
+                span {
+                    font-size: @font-size-base * 1.2;
+                    display: inline-block;
+                    margin: 0 5px;
+                    .menu-item {
+                        padding: 5px;
+                        a {
+                            color: inherit;
+                        }
+                    }
+                }
+            }
+        }
+        // .layout-border {
+        //     height: calc(100% - @header-height);
+            .layout-content{
+                padding: 10px;
+                height: 100%;
+            }
+        // }
+
+        .active-menu {
+            color: #45b8d1;
+        }
+    }
+}

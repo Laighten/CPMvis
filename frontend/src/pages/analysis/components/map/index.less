@@ -1,0 +1,34 @@
+@import '../../../../style/variable.less';
+
+.map {
+    height: 100%;
+    :global {
+        position:relative;
+        .switch-btn{
+            height: 30px;
+            display: flex;
+            span{
+                display: inline-block;
+                margin: 0 10px;
+                cursor: pointer;
+                .btn{
+                    padding: 5px;
+                }
+                .activeBtn{
+                    color: @activeColor;
+                }
+            }
+        }
+        .chart-container {
+            height: calc(100% - 30px);
+        }
+    }
+}
+
+.province-modal {
+    :global {
+        .ant-modal-content {
+            background-color: rgba(20, 24, 43, .8);
+        }
+    }
+}

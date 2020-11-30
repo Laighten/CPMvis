@@ -1,0 +1,68 @@
+
+.network {
+    display: flex;
+    height: 100%;
+    :global {
+        .network-info {
+            width: 30%;
+            height: 100%;
+            .network-info-container {
+                height: 100%;
+                padding-right: 10px;
+            }
+            .network-info-weibo {
+                height: 50%;
+                padding-bottom: 10px;
+                .section-header {
+                    height: 40px;
+                }
+                .section-container {
+                    height: calc(100% - 40px);
+                }
+            }
+            .content {
+                height: 100%;
+                overflow: auto;
+                .content-item {
+                    display: flex;
+                    line-height: 2em;
+                    .content-item-type {
+                        width: 4em;
+                        font-weight: bold;
+                        font-size: 14px;
+                        position: relative;
+                        &::after {
+                            position: absolute;
+                            right: 5px;
+                            content: ':';
+                        }
+                    }
+                    .content-item-value {
+                        flex: 1;
+                        word-break: break-all;
+                    }
+                }
+                .ant-empty {
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    .ant-empty-description {
+                        font-size: 18px;
+                    }
+                }
+            }
+            .wordCloud {
+                height: 50%;
+            }
+        }
+        .network-chart {
+            flex: 1;
+            height: 100%;
+        }
+        .content-form {
+            text-align: right;
+        }
+    }
+}

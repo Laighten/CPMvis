@@ -1,0 +1,33 @@
+@import '../../../../style/variable.less';
+
+.migrate {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    :global {
+        .sankey {
+            height: 50%;
+        }
+        .linearea {
+            flex: 1;
+        }
+    }
+}
+.switch-btn{
+    display: flex;
+    justify-content: space-evenly;
+    .title{
+        display: inline-block;
+        margin-right: 50px;
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .select{
+        width: 150px;
+        margin-right: 10px;
+    }
+    div {
+        margin-left: 10px;
+    }
+}

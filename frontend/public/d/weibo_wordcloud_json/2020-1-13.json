@@ -1,0 +1,14 @@
+{
+"data": [
+{"name": "热词", "value": 1.7078239289857142,"textStyle": {"normal": {"color": "rgb(144,173,226)"}}},
+{"name": "考研", "value": 1.6887480157571428,"textStyle": {"normal": {"color": "rgb(161,161,154)"}}},
+{"name": "硕士", "value": 1.2671771043685713,"textStyle": {"normal": {"color": "rgb(204,184,146)"}}},
+{"name": "翻译", "value": 1.0703069801314287,"textStyle": {"normal": {"color": "rgb(218,218,138)"}}},
+{"name": "旭东", "value": 0.9144332402357144,"textStyle": {"normal": {"color": "rgb(201,129,245)"}}},
+{"name": "冠状病毒", "value": 0.8779456956785714,"textStyle": {"normal": {"color": "rgb(209,232,132)"}}},
+{"name": "翻硕", "value": 0.8539119644928571,"textStyle": {"normal": {"color": "rgb(138,165,196)"}}},
+{"name": "PneumoniaoutbreakincentralChinacity", "value": 0.8539119644928571,"textStyle": {"normal": {"color": "rgb(210,216,222)"}}},
+{"name": "新型", "value": 0.4905752422107143,"textStyle": {"normal": {"color": "rgb(114,124,120)"}}},
+{"name": "年度", "value": 0.4528626063721429,"textStyle": {"normal": {"color": "rgb(224,154,247)"}}}
+]
+}

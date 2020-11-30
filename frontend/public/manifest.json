@@ -1,0 +1,8 @@
+{
+  "short_name": "CPMvis",
+  "name": "新冠疫情模拟预测与多尺度舆情监测分析系统",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

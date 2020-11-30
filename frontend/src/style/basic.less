@@ -1,0 +1,31 @@
+@import './variable.less';
+
+@padding-base: @font-size-base;
+
+:global {
+    .border-padding-1 {
+        &>.border-box-content {
+            padding: @padding-base;
+        }
+    }
+    .border-padding-2 {
+        &>.border-box-content {
+            padding: @padding-base * 1.2;
+        }
+    }
+    .border-padding-3 {
+        &>.border-box-content {
+            padding: @padding-base * 1.5;
+        }
+    }
+    .border-padding-4 {
+        &>.border-box-content {
+            padding: @padding-base * 1.7;
+        }
+    }
+    .border-padding-5 {
+        &>.border-box-content {
+            padding: @padding-base * 2;
+        }
+    }
+}

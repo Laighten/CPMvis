@@ -1,0 +1,35 @@
+@import '../../style/variable.less';
+
+.section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    height: 100%;
+    background-image: radial-gradient(rgba(17, 36, 84, .8), rgba(7, 15, 36, 0.9));
+
+    :global {
+        .section-header {
+            // background-color: rgba(6,30,93,.5);
+            font-size: @font-size-base * 1.2;
+            line-height: @font-size-2;
+            font-weight: bold;
+            .section-header-container {
+                display: flex;
+                justify-content: space-between;
+                .header-title {
+                    width: 10em;
+                }
+                &>div:nth-last-child(1) {
+                    flex: 1;
+                }
+            }
+            .section-header-dect {
+                position: relative;
+                height: @font-size-1;
+            }
+        }
+        .section-container {
+            flex: 1;
+        }
+    }
+}
