@@ -5,11 +5,13 @@
 
 - 仓库地址：[https://github.com/Laighten/CPMvis](https://github.com/Laighten/CPMvis.git)
 ### 界面展示
-
+#### 疫情传播可视分析界面
 ![疫情传播可视分析界面](https://github.com/Laighten/CPMvis/raw/master/img/图片1.png)
+![疫情传播可视分析界面](https://github.com/Laighten/CPMvis/raw/master/img/图片2.png)
 #### 舆情信息可视分析界面
+![舆情信息可视分析界面](https://github.com/Laighten/CPMvis/raw/master/img/图片3.png)
 #### 舆情分布可视分析界面
-
+![舆情分布可视分析界面](https://github.com/Laighten/CPMvis/raw/master/img/图片4.png)
 ### 前端部署
 
 #### 必备软件：
