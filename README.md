@@ -4,6 +4,11 @@
 - ChinaVis 2020 挑战赛题目三（三等奖）
 
 - 仓库地址：[https://github.com/Laighten/CPMvis](https://github.com/Laighten/CPMvis.git)
+### 界面展示
+#### 疫情传播可视分析界面
+![Alt text](https://github.com/Laighten/CPMvis/img/图片1.png)
+#### 舆情信息可视分析界面
+#### 舆情分布可视分析界面
 
 ### 前端部署
 
