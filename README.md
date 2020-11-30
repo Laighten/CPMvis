@@ -1,10 +1,10 @@
-### ChinaVIS 2020 挑战赛官网
+### 一、ChinaVIS 2020 挑战赛官网
 - 官网地址：[http://www.chinavis.org/2020/challenge.html](http://www.chinavis.org/2020/challenge.html)
 ### CPMvis:新冠疫情模拟预测与多尺度舆情监测分析系统
 - ChinaVis 2020 挑战赛题目三（三等奖）
 
 - 仓库地址：[https://github.com/Laighten/CPMvis](https://github.com/Laighten/CPMvis.git)
-### 界面展示
+### 二、界面展示
 #### 疫情传播可视分析界面
 ![疫情传播可视分析界面](https://github.com/Laighten/CPMvis/raw/master/img/图片1.png)
 ![疫情传播可视分析界面](https://github.com/Laighten/CPMvis/raw/master/img/图片2.png)
@@ -12,7 +12,7 @@
 ![舆情信息可视分析界面](https://github.com/Laighten/CPMvis/raw/master/img/图片3.png)
 #### 舆情分布可视分析界面
 ![舆情分布可视分析界面](https://github.com/Laighten/CPMvis/raw/master/img/图片4.png)
-### 前端部署
+### 三、前端部署
 
 #### 必备软件：
 
@@ -31,7 +31,7 @@ yarn
 yarn start
 # http://localhost:3300(或其他端口，即使占用也无需配置)
 ```
-### 后端部署
+### 四、后端部署
 
 #### 1、文件夹说明
 ```
