@@ -1,6 +1,7 @@
 ### ChinaVIS 2020 挑战赛官网
 - 官网地址：[http://www.chinavis.org/2020/challenge.html](http://www.chinavis.org/2020/challenge.html)
-### ChinaVis 2020 挑战赛题目三（三等奖）
+### CPMvis:新冠疫情模拟预测与多尺度舆情监测分析系统
+- ChinaVis 2020 挑战赛题目三（三等奖）
 
 - 仓库地址：[https://github.com/Laighten/CPMvis](https://github.com/Laighten/CPMvis.git)
 
